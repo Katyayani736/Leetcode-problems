@@ -25,3 +25,9 @@ class Solution:
         else:
             median = float(e) + float(prev)
             return median / 2.0
+
+nums1 = [1, 2, 7]
+nums2 = [3, 4, 5, 8]
+solution = Solution()
+median = solution.findMedianSortedArrays(nums1, nums2)
+print(median)
