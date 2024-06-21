@@ -12,3 +12,12 @@ public:
         return p;
     }
 };
+int main() {
+    int numStairs;
+    cout << "Enter the number of stairs: ";
+    cin >> numStairs;
+    Solution solution;
+    int ways = solution.climbStairs(numStairs);
+    cout << "Number of ways to climb " << numStairs << " stairs: " << ways << endl;
+    return 0;
+}
