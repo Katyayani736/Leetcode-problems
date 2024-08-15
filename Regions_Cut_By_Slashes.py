@@ -27,7 +27,6 @@ class Solution:
                     cell1 = (i + 1) * dots + j
                     cell2 = i * dots + (j + 1)
                     self.union(cell1, cell2)
-
         return self.count
 
     def union(self, a, b):
