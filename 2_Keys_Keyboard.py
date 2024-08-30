@@ -5,7 +5,6 @@ class Solution:
         
         steps = 0
         factor = 2
-        
         while n > 1:
             while n % factor == 0:
                 steps += factor
