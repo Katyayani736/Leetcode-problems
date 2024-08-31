@@ -8,7 +8,6 @@ public:
 
         while (cur_ind < n) {
             char cur_char = formula[cur_ind];
-
             if (cur_char == '(') {
                 cur_ind++;
                 parenthesis_stack.push(unordered_map<string, int>());
