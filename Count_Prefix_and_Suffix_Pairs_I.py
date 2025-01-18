@@ -1,4 +1,5 @@
 #3042. Count Prefix and Suffix Pairs I
+
 class Solution:
     def countPrefixSuffixPairs(self, words: List[str]) -> int:
         c=0
