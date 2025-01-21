@@ -14,7 +14,6 @@ class Solution:
 
 # Main function for user input and function call
 solution = Solution()
-
 # Get array and k as input
 n = int(input("Enter the number of elements in the array: "))
 arr = []
