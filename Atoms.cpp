@@ -54,7 +54,6 @@ public:
 
             target[cur_elem] += cur_counter_str.empty() ? 1 : stoi(cur_counter_str);
         }
-
         vector<string> parts;
         for (const auto& [elem, counter] : result_counter) {
             parts.push_back(elem + (counter == 1 ? "" : to_string(counter)));
