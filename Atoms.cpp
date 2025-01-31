@@ -59,7 +59,6 @@ public:
             parts.push_back(elem + (counter == 1 ? "" : to_string(counter)));
         }
         sort(parts.begin(), parts.end());
-
         string result;
         for (const auto& part : parts) {
             result += part;
