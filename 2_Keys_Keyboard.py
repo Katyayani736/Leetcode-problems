@@ -9,5 +9,4 @@ class Solution:
                 steps += factor
                 n //= factor
             factor += 1
-            
         return steps
