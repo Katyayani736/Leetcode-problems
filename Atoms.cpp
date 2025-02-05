@@ -37,7 +37,6 @@ public:
             string cur_elem = "";
             string cur_counter_str = "";
             unordered_map<string, int>& target = parenthesis_stack.empty() ? result_counter : parenthesis_stack.top();
-
             while (cur_ind < n && formula[cur_ind] != '(' && formula[cur_ind] != ')') {
                 if (isalpha(formula[cur_ind])) {
                     if (isupper(formula[cur_ind]) && !cur_elem.empty()) {
