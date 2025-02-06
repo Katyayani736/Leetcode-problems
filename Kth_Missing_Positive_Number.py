@@ -11,7 +11,6 @@ class Solution:
             else:
                 high = mid - 1
         return low + k
-
 # Main function for user input and function call
 solution = Solution()
 # Get array and k as input
