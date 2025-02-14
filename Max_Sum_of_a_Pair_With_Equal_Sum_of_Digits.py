@@ -2,7 +2,6 @@ class Solution:
     def maximumSum(self, nums):
         mp = [-1] * 82
         ans = -1
-
         for num in nums:
             digit_sum = sum(int(d) for d in str(num))
 
